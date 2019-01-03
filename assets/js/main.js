@@ -15,8 +15,6 @@ var topbar = document.querySelector('div.topbar')
 var audios = document.querySelectorAll('audio:not(#startAudio)')
 
 function darkToggle(elementId) {
-    console.log(elementId);
-
     if (['section1', 'section3', 'section5', 'section6', 'section8', 'section9', 'section11'].includes(elementId)) {
         navs.forEach(function(el) {
             el.classList.toggle('dark')
